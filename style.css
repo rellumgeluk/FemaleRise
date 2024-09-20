@@ -1,14 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: dodgerblue;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333333;
 }
 
-.text {
-    text-align: center;
-    color: white;
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Navigation bar styling */
+nav {
+    margin-left: auto;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Individual link styles */
+.header-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Make all links behave like buttons */
+.header-links li a:hover {
+    background-color: #001A72;
+    color: #fff;
+}
+
+/* Special style for the CTA button */
+.cta-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+}
+
+.loading-tech-card {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.hero-image {
+
+position: absolute;
+width: 544px;
+height: 446px;
+left: 655px;
+top: 140px;
 }
