@@ -19,7 +19,7 @@ header {
 .header-logo {
     height: 200px; 
     width: auto; 
-    margin-top: -50px; 
+    margin-top: -70px; 
     margin-bottom: -50px; 
 }
 
@@ -91,7 +91,7 @@ nav {
 .hero-image {
     position: absolute;
     width: 744px;
-    height: 540px;
+    height: 530px;
     left: 655px;
     top: 140px;
 }
