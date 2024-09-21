@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -90,7 +90,7 @@ nav {
     font-size: 17px;
     margin-bottom: 30px;
     max-width: 500px;
-}
+  }
 
 /* Adjust hero image position */
 .hero-image {
