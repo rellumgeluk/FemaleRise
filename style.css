@@ -19,7 +19,8 @@ header {
 .header-logo {
     height: 230px; 
     width: auto; 
-    margin-top: -90px; 
+    align-items: center;
+    margin-top: -65px; 
     margin-bottom: -50px; 
 }
 
@@ -43,27 +44,28 @@ nav {
     padding: 8px 15px; /* Reduced padding to match the smaller text */
     border-radius: 5px;
     background-color: transparent;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: none;
     margin-right: 43px;
 }
 
 .header-links li a:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: transparent;
+    color: #333;
 }
-
 
 .cta-button {
     background-color: #000;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 5px;
     font-size: 14px; 
-    transition: background-color 0.3s ease;
+    transition: none;
+    text-align: center;
+    text-decoration: none;
 }
 
 .cta-button:hover {
     background-color: #333;
+    color: #fff;
 }
 
 .hero {
